@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title>Angular-Demo</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+</head>
+<body>
+  <h1>FRIENDS FOR EVER</h1>
+  </br>
+  <h4>This story is not completed!! Can you help me to finish this story???</h4>
+  <h4>All you need is fill in the boxes!!!</h4>
+  <form>
+    Name of wild animal: <input ng-model="WildAnimal" placeholder="Wild Animal"></input></br>
+    </br><!-- 1 -->
+    Name of small animal: <input ng-model="SmallAnimal" placeholder="Small Animal"></input></br>
+    </br><!-- 2 -->
+    Place where animals live: <input ng-model="Place" placeholder="Place"></input></br>
+    </br><!-- 3 -->
+    Name who can catch in net to that wild animal: <input ng-model="WildAnimalKiller" placeholder="Wild Animal Killer"></input></br>
+    </br><!-- 4 -->
+    Name of the place where wild animal sleep: <input ng-model="PlceWereSleep" placeholder="Place Were wild animal Sleep"></input></br>
+    </br><!-- 5 -->
+    Wild animal start to...: <input ng-model="beate" placeholder="Beate, Jump on it, etc."></input></br>
+    </br><!-- 6 -->
+    Name of another wild animal:<input ng-model="anotherWildAnimal" placeholder="another wild animal"></input></br>
+    </br><!-- 7 -->
+    <p>This story is kind of..</p>
+    </br>
+    Kind of: <input ng-model="feedback2" placeholder="good or bad"></input></br>
+    </br><!-- 8 -->
+    <p>Do you like this story? Please write:</p>
+    </br>
+    Like: <input ng-model="feedback1" placeholder="Like"></input></br>
+    </br><!-- 9 -->
+   OR Dislike:<input ng-model="feedback3" placeholder="Dislike"></input></br>
+    </br><!-- 10 -->
+    	<p>Please write in anyone box.</p>
+  </form>
+
+  </br>
+  <h4>After fill in the boxes, Read the story...!</h4>
+  </br>
+
+ 
+  <p>Once upon a time there lived a {{ WildAnimal }} in a {{ Place }} . One day after a heavy meal. It was sleeping {{ PlceWereSleep }}. After a while, there came a {{ SmallAnimal }} and it started to play on the {{ WildAnimal }} . Suddenly the {{ WildAnimal }} got up with anger and looked for those who disturbed its nice sleep. Then it saw a small {{ SmallAnimal }} standing trembling with fear. The {{ WildAnimal }} {{ beate }} and started to kill it. The {{ SmallAnimal }} requested the {{ WildAnimal }} to forgive it. The {{ WildAnimal }} felt pity and left it. The {{ SmallAnimal }} ran away.</p>
+
+  <p>On another day, the {{ WildAnimal }} was caught in a net by a {{WildAnimalKiller}} . The {{ SmallAnimal }} came there and cut the net. Thus it escaped. There after, the {{ SmallAnimal }} and the {{ WildAnimal }} became friends. They lived happily in the {{ Place }} afterwards.</p>
+
+  <p>One time when another {{ anotherWildAnimal }} show a {{ SmallAnimal }} is wondering in jungle. {{ anotherWildAnimal }} show this and going to kill it. On tha time {{ WildAnimal }} is passing from that place and show that {{ anotherWildAnimal }} is going to kill a {{ SmallAnimal }}. The {{ WildAnimal }} go their and save their life.</p>
+
+  <h4>FEEDBACK:</h4>
+  <p>This story is kind of {{ feedback2}}.</p>
+  <p>I {{ feedback1}}{{ feedback3}} this story !!! </p>
+
+</body>
+</html>
